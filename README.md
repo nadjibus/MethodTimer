@@ -6,7 +6,7 @@
 
 ![Icon](https://raw.githubusercontent.com/Fody/MethodTimer/master/package_icon.png)
 
-Injects some very basic method timing code.
+Injects some very basic method timing code (.NET Standard 2.0 fork).
 
 [Introduction to Fody](http://github.com/Fody/Fody/wiki/SampleUsage)
 
@@ -18,11 +18,11 @@ See also [Fody usage](https://github.com/Fody/Fody#usage).
 
 ### NuGet installation
 
-Install the [MethodTimer.Fody NuGet package](https://nuget.org/packages/MethodTimer.Fody/) and update the [Fody NuGet package](https://nuget.org/packages/Fody/):
+Install the [MethodTimer.Fody.NetStandard20 NuGet package](https://www.nuget.org/packages/MethodTimer.Fody.NetStandard20/2.2.2/) and update the [Fody NuGet package](https://nuget.org/packages/Fody/):
 
 ```powershell
 PM> Install-Package Fody
-PM> Install-Package MethodTimer.Fody
+PM> Install-Package MethodTimer.Fody.NetStandard20
 ```
 
 The `Install-Package Fody` is required since NuGet always defaults to the oldest, and most buggy, version of any dependency.
