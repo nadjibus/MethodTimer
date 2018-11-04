@@ -18,11 +18,11 @@ See also [Fody usage](https://github.com/Fody/Fody#usage).
 
 ### NuGet installation
 
-Install the [MethodTimer.Fody.NetStandard20 NuGet package](https://www.nuget.org/packages/MethodTimer.Fody.NetStandard20/2.2.2/) and update the [Fody NuGet package](https://nuget.org/packages/Fody/):
+Install the [MethodTimer.Fody NuGet package](https://www.nuget.org/packages/MethodTimer.Fody/2.2.2/) and update the [Fody NuGet package](https://nuget.org/packages/Fody/):
 
 ```powershell
 PM> Install-Package Fody
-PM> Install-Package MethodTimer.Fody.NetStandard20
+PM> Install-Package MethodTimer.Fody
 ```
 
 The `Install-Package Fody` is required since NuGet always defaults to the oldest, and most buggy, version of any dependency.
